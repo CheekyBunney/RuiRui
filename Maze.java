@@ -92,7 +92,7 @@ public class Maze
                 {
                     done = true;
                     solved = true;
-                    System.out.println("MESSAGE 4"); // Solved.
+                    System.out.println("SOLVED!"); // Solved.
                 }
                 else
                 {} // Do nothing
@@ -103,7 +103,7 @@ public class Maze
         
         if(!solved)
         {
-            System.out.println("MESSAGE 5"); // Did not reach the end.
+            System.out.println("You have failed to escape. Future archaeologists gaze upon your remains in bafflement."); // Did not reach the end.
         }
         
         Viewer.view(grid);   
